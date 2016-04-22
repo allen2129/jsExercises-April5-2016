@@ -9,7 +9,7 @@
     sayHello("Mat") => Hello Mat
 */
 function sayHello(name) {
-
+  return "Hello " + name;
 }
 
 /*
@@ -19,8 +19,9 @@ function sayHello(name) {
     sayHelloAdv("Jesse", "Wang") => Hello Jesse Wang
     sayHelloAdv("Alex", "Pelan") => Hello Alex Pelan
 */
-function sayHelloAdv(first, last) {
-
+function sayHelloAdv(First, Last) {
+  var name=First +" "+ Last;
+  return sayHello(name);
 }
 
 /*
@@ -30,7 +31,8 @@ function sayHelloAdv(first, last) {
     playerStats("Meghan", 12) => Meghan made 12 points
 */
 function playerStats(player, points) {
-
+  var score=player + " made " + points + " points";
+  return (score);
 }
 
 /*
@@ -41,8 +43,8 @@ function playerStats(player, points) {
     calculateScore(8, 6) => 34
 */
 function calculateScore(twoPointersMade, threePointersMade) {
-
-}
+  return (2);
+    }
 
 /*
   Calculates the totalScore a player has made
